@@ -1,6 +1,6 @@
 require 'pry'
 
-class Artist 
+class Artist
   extend Memorable,Findable
 
   attr_accessor :name
