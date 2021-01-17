@@ -8,9 +8,10 @@ class Artist
   attr_reader :songs
 
   @@artists = []
+  floop = @@artists
 
   def initialize
-    class.self.all << self
+     << self
     @songs = []
   end
 
