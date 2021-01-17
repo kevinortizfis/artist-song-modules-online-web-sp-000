@@ -3,8 +3,8 @@ module Memorable
   module InstanceMethods
     def initialize
     self.class.all << self
+    end
   end
-end
 
 module ClassMethods
   def reset_all
