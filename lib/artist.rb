@@ -9,6 +9,7 @@ class Artist
 
   @@artists = []
 
+def initizlize
 
   def self.all
     @@artists
