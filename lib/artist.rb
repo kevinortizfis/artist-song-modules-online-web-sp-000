@@ -8,7 +8,6 @@ class Artist
   attr_reader :songs
 
   @@artists = []
-  FLOOP = @@artists
 
   def initialize
     self.all << self
