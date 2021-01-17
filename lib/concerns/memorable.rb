@@ -15,4 +15,5 @@ module ClassMethods
     all.count
   end
 end
+
 end
