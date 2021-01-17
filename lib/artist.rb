@@ -8,7 +8,7 @@ class Artist
   attr_reader :songs
 
   @@artists = []
-  floop = @@artists
+  FLOOP = @@artists
 
   def initialize
     floop << self
