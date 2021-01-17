@@ -9,7 +9,8 @@ class Artist
 
   @@artists = []
 
-def initizlize
+def initialize
+end
 
   def self.all
     @@artists
