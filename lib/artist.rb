@@ -10,6 +10,7 @@ class Artist
   @@artists = []
 
 def initialize
+  initialize
 end
 
   def self.all
