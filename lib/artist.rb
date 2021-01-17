@@ -11,7 +11,7 @@ class Artist
   FLOOP = @@artists
 
   def initialize
-    FLOOP << self
+    self.all << self
     @songs = []
   end
 
