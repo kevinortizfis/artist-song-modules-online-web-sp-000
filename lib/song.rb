@@ -7,7 +7,11 @@ class Song
   attr_reader :artist
 
 
-initialize
+  @@songs = []
+
+  def initialize
+    @@songs << self
+  end
 
   def self.all
     @@songs
